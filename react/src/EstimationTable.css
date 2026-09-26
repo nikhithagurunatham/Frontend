@@ -1,0 +1,196 @@
+body {
+  margin: 0;
+  background: white;
+  color: black;
+}
+
+.estimation-page {
+  width: 90%;
+  margin: 30px auto;
+  font-family: Arial, sans-serif;
+}
+
+.estimation-header,
+.task-box,
+.summary-box {
+  border-bottom: none;
+}
+.task-box {
+  margin-top: 25px;
+  background: white;
+  text-align: center;
+  min-height: 100px;
+}
+
+.task-box.empty {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 180px;
+}
+
+.empty-task-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.empty-task-state p {
+  margin: 0;
+  font-size: 16px;
+  color: #333;
+}
+
+.task-header,
+.task-row {
+  width: 100%;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 50px 2fr 1.5fr 1fr 1fr 100px;
+  align-items: center;
+  gap: 10px;
+  padding: 12px;
+}
+
+.task-header {
+  background-color: #eef6ff;
+  font-weight: bold;
+}
+
+.task-row {
+  border-bottom: 1px solid #ddd;
+}
+
+.task-row input,
+.task-row select {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+.task-header {
+  background-color: #eef6ff;
+  font-weight: bold;
+}
+
+.task-row {
+  border-bottom: 1px solid #ddd;
+}
+
+.task-row input,
+.task-row select {
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+.delete-btn {
+  background: purple;
+  color: white;
+  border: none;
+  padding: 7px 10px;
+}
+.summary-box {
+  margin-top: 25px;
+  padding: 20px;
+  background-color: #eef6ff;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.summary-box div {
+  flex: 1;
+  padding: 5px;
+}
+
+.summary-box div + div {
+  border-left: 1px solid #ccc;
+}
+
+.summary-box span {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.summary-box strong {
+  display: block;
+  font-size: 28px;
+}
+
+.estimation-header {
+  padding: 15px;
+}
+.estimation-header {
+  padding: 15px;
+  background-color: white;
+}
+
+.task-box {
+  margin-top: 25px;
+  padding: 20px;
+  background-color: #fafafa;
+  text-align: center;
+  min-height: 100px;
+}
+
+.summary-box {
+  margin-top: 25px;
+  padding: 15px;
+  background-color: #fafafa;
+  display: flex;
+  justify-content: space-around;
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-top h1 {
+  margin: 0;
+  color: black;
+}
+
+.estimation-header h1 {
+  margin: 0;
+  color:black;
+}
+
+button {
+  background: purple;
+  color: white;
+  border: none;
+  padding: 7px 12px;
+  cursor: pointer;
+}
+
+.task-box {
+  margin-top: 15px;
+  padding: 20px;
+  background: white;
+  text-align: center;
+  min-height: 100px;
+}
+
+.task-row {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.task-row input,
+.task-row select {
+  padding: 7px;
+}
+
+.summary-box {
+  margin-top: 15px;
+  padding: 15px;
+  display: flex;
+  justify-content: space-around;
+}
