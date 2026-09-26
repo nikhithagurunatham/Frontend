@@ -1,53 +1,57 @@
-import ProjectCard from "./projectCard.jsx";
-import "./App.css"
-function App() {
-  const projects = [
-    {
-      id:1,
-      name: "Frontend Development",
-      client: "TCS",
-      status: "In Progress",
-      owner: "Nikhitha",
-      startDate: "2026-09-15",
-      endDate: "2026-09-25",
-      hours: 120,
-      finalCost: 530332
-    },
-    {
-      id:2,
-      name: "backend Development",
-      client: "TTD",
-      status: "Completed",
-      owner: "Vishwa",
-      startDate: "2026-08-01",
-      endDate: "2026-08-15",
-      hours: 80,
-      finalCost: 250000
-    },
-    {
-      id:3,
-      name: "E-commerce",
-      client: "amazon",
-      status: "Pending",
-      owner: "Virat",
-      startDate: "2026-09-15",
-      endDate: "2026-09-30",
-      hours: 60,
-      finalCost: 0
-    }
-  ];
+// import ProjectCard from "./projectCard.jsx";
+// import "./App.css"
+// function App() {
+//   const projects = [
+//   {
+//     id: crypto.randomUUID(),
+//     name: "CRM Application",
+//     client: "ABC Company",
+//     status: "In Progress",
+//     owner: "Nikhitha",
+//     hours: 120,
+//     startDate: "2026-09-01",
+//     endDate: "2026-10-15",
+//     finalCost: 96000
+//   },
+//   {
+//     id: crypto.randomUUID(),
+//     name: "E-Commerce Website",
+//     client: "XYZ Company",
+//     status: "Completed",
+//     owner: "Rahul",
+//     hours: 200,
+//     startDate: "2026-08-01",
+//     endDate: "2026-09-10",
+//     finalCost: 150000
+//   }
+// ];
 
+//   return (
+//     <div>
+//     <h1>Project details</h1>
+//     <div className="project-container">
+//       {projects.length === 0 && <p>No projects found.</p>}
+//       {projects.map((project) => (
+//         <ProjectCard
+//     key={project.id}
+//     project={project}
+//   />
+//       ))}
+//     </div>
+//     </div>
+//   );
+// }
+
+// export default App;
+
+
+
+import EstimationTable from "./EstimationTable.jsx";
+
+function App() {
   return (
     <div>
-    <h1>Project details</h1>
-    <div className="project-container">
-      {projects.map((project) => (
-        <ProjectCard
-    key={project.id}
-    project={project}
-  />
-      ))}
-    </div>
+      <EstimationTable />
     </div>
   );
 }

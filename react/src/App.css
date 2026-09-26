@@ -1,30 +1,9 @@
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
-  background-color: black;
+  background: white;
 }
 
 #root {
-  padding: 30px;
-}
-
-.project-card {
-  background-color: white;
-  width: 350px;
-  padding: 20px;
-  border-radius: 10px;
-  font-size: 16px;
-  color: black;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-}
-.project-card h2 {
-  font-size: 20px;
-  color: black
-}
-
-.project-container {
-  display: flex;
-  gap: 20px;
-  font-size: 16px;
-  color: black
+  margin: 0;
+  padding: 0;
 }
