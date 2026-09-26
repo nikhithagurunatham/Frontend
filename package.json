@@ -1,0 +1,10 @@
+{
+  "name": "frontend-root",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix react run dev -- --host 0.0.0.0",
+    "start": "npm --prefix react run dev -- --host 0.0.0.0",
+    "build": "npm --prefix react run build",
+    "preview": "npm --prefix react run preview -- --host 0.0.0.0"
+  }
+}
